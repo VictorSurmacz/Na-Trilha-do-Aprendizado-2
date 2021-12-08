@@ -1,0 +1,95 @@
+body{
+    font-family:Arial, Helvetica,
+     sans-serif;
+     width: 50%;
+     height: 100%;
+     margin-top: 60px;
+     margin-right: 60px;
+     margin-bottom: 60px;
+     margin-left: 80px;
+     /*margin: 60px, 60px, 60px 80px; segunda maneira de Fazer, sempre no sentido Horario*/
+     border-style: solid;
+     border-width: 4px;
+     border-color: blue;
+     /*border-color-(lado) para mudar a cor da borda de um lado especifico*/
+     padding: 20px;
+} 
+
+h1{
+     background-color: darkblue;
+     color: white;
+     width: 300px;
+     height: 50px;
+     margin: 50px;
+     border: 3px dotted darkgray;
+     padding: 20px;
+}
+p{
+    background-color: gray;
+}
+span{
+    display: block;
+    background-color: greenyellow;
+}
+.box1{
+    position: static;
+    background-color: yellow;
+    width: 400px;
+    height: 50px;
+}
+.box2{
+    position: relative;
+    background-color: green;
+    width: 400px;
+    height: 50px;
+    bottom: 50px;
+    left: 450px;
+}
+.box3{
+    position: absolute;
+    background-color: blue;
+    width: 450px;
+    height: 50px;
+    left: 553px;
+}
+.box4{
+    position: fixed;
+    background-color: blueviolet;
+    width: 450px;
+    height: 50px;
+    top: 500px;
+    left: 1100px;
+   
+}
+.box5{
+    position: sticky;
+    background-color: orange;
+    width: 450px;
+    height: 50px;
+    bottom: 200px;
+    left: 100px;
+}
+.layer1{
+    position: relative;
+    background-color: darkcyan;
+    width: 80px;
+    height: 70px;
+    bottom: 0px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.layer2{
+    position: relative;
+    background-color: darkmagenta;
+    width: 80px;
+    height: 70px;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}

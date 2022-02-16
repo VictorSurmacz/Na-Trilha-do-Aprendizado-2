@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: beige;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 4px solid maroon ;
+    font-size: 40px;
+}
+ 
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: maroon;
+    font-size: xx-large;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(129, 66, 66);
+}

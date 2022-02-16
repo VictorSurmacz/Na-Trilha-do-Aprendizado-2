@@ -3,7 +3,7 @@ body{
     background-image: linear-gradient(to right, #b1794f, beige );
 }
 h1{
-    
+    position: static;
     text-align:center;
     background-color: #965d32;
     padding-bottom: 30px;
@@ -27,3 +27,39 @@ h2{
     box-shadow: 6px 6px 6px #DFD8CA;
     height: 40px;
    }
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    float: right;
+    display: block;
+    color: beige;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 10px;
+    border-radius: 6px;
+    background-color: #8E806A;
+    border: 2px solid#8a6346 ;
+    box-shadow: 4px 4px 4px#b48561;
+}
+.navegacao a:hover{
+    color: beige;
+    background-color: #8a6346;
+
+}
+.navegacao{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 703px;
+    top: 160px;
+}
+.nome{
+    position: sticky;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+    width: 450px;
+    height: 50px;
+    bottom: 200px;
+    left: 100px;
+}

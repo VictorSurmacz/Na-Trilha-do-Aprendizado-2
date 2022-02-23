@@ -3,7 +3,6 @@ body{
     background-image: linear-gradient(to right, #b1794f, beige );
 }
 h1{
-    position: static;
     text-align:center;
     background-color: #965d32;
     padding-bottom: 30px;
@@ -53,13 +52,4 @@ h2{
     height: 50px;
     left: 703px;
     top: 160px;
-}
-.nome{
-    position: sticky;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: beige;
-    width: 450px;
-    height: 50px;
-    bottom: 200px;
-    left: 100px;
 }
